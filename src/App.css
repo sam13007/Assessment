@@ -1,38 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap");
 .App {
+  background-image: linear-gradient(to bottom, #caf0f8, 90%, #caf0f8);
+  height: 100%;
+}
+.main-h1 {
+  color: white;
+  font-family: "Shantell Sans", cursive;
+  white-space: nowrap;
+}
+.navbar {
+  width: 100%;
+  height: 4em;
+  background-color: hsl(194, 77%, 38%);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  position: fixed;
+  background-color: #1689ac;
+  height: 3em;
+}
+.btn {
+  border: none;
+  background-color: #3d5a80;
+  color: white;
+  padding: 5px 18px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+#leftdivcard,
+#rightdiv {
+  width: 50%;
+  margin: 2rem;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.images {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  padding: 2rem;
 }
